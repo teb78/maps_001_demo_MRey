@@ -69,7 +69,8 @@
 
       // Add all points into a heat layer
       var heat = L.heatLayer(data, {
-        radius: 20
+        radius: 30,
+        blur: 15
       })
 
       // Add the heatlayer to the map
